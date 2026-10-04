@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Endoscopic Vision: Anomaly Detection & Diagnostic Framework
 
 Hệ thống thị giác máy tính hỗ trợ phát hiện các điểm bất thường và chẩn đoán tổn thương niêm mạc (viêm loét, polyp, xuất huyết) trên ảnh và video nội soi tiêu hóa.
@@ -74,3 +75,6 @@ python scripts/generate_metadata_manifest.py --output data/processed/manifest.cs
 - Validation: 15% bệnh nhân
 - Test: 15% bệnh nhân
 *(Tuyệt đối không trộn lẫn các frame từ cùng một ca nội soi vào cả 2 tập Train và Test).*
+=======
+# GastroHH
+>>>>>>> 333ae382c5705f7bc32e4eab49ddb887d5dc3caf
