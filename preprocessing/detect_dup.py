@@ -40,7 +40,7 @@ for h, paths in hash_dict.items():
 # 2. TÌM ẢNH TRÙNG TƯƠNG ĐỐI (Khoảng cách Hamming thấp, ví dụ <= 4)
 # (Phương pháp này thu hẹp danh sách bằng cách chỉ so sánh các mã băm duy nhất)
 unique_hashes = list(hash_dict.keys())
-THRESHOLD = 9  # Độ lệch tối đa để coi là trùng nhau
+THRESHOLD = 4  # Độ lệch tối đa để coi là trùng nhau
 duplicates_found = []
 
 for i in range(len(unique_hashes)):
